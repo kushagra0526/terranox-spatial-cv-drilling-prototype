@@ -1,0 +1,38 @@
+{
+ "set": "dev",
+ "worlds": 12,
+ "budget": 40,
+ "auc": {
+  "logistic/random_cv": 0.851201215242296,
+  "logistic/block_cv": 0.7593617997948684,
+  "logistic/truth_new_area": 0.7526298238249908,
+  "knn_xy/random_cv": 0.9415467889578143,
+  "knn_xy/block_cv": 0.593743445273181,
+  "knn_xy/truth_new_area": 0.5271477385004522
+ },
+ "picks_better_model": {
+  "random_cv": 1,
+  "block_cv": 10,
+  "truth": 0
+ },
+ "drilling": {
+  "grid": {
+   "found": 3,
+   "total": 99,
+   "median_first": 41.0,
+   "no_discovery": 9
+  },
+  "greedy": {
+   "found": 22,
+   "total": 99,
+   "median_first": 6.0,
+   "no_discovery": 4
+  },
+  "bayes": {
+   "found": 72,
+   "total": 99,
+   "median_first": 2.5,
+   "no_discovery": 0
+  }
+ }
+}

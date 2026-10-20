@@ -1,0 +1,6 @@
+{
+ "note": "Frozen before the first run. A different basin type: more conductors (more decoys), fewer deposits, smaller halos, noisier EM and gravity, two unmapped faults, historical drilling even more clustered, and a tighter budget of 30 holes. New seeds.",
+ "seeds": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112],
+ "budget": 30,
+ "cfg": {"conductors": 12, "deposits": 10, "halo": 5, "em_noise": 0.6, "grav_noise": 0.8, "missing_faults": 2, "hist_cluster": 0.75}
+}
