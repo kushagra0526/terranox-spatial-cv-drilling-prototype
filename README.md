@@ -17,6 +17,8 @@ $ python demo.py   (held-out basin 107)
   O = ore, a = alteration (missed the ore but inside its halo), . = barren
 ```
 
+![demo](docs/demo.jpg)
+
 ## What it does (`basin/`, numpy)
 - **`sim.py`: a 40 × 40 km basin (250 m cells).**
   - Graphitic conductors and faults (some unmapped).
