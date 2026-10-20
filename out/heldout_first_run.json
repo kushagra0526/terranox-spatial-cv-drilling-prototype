@@ -1,0 +1,38 @@
+{
+ "set": "heldout",
+ "worlds": 12,
+ "budget": 30,
+ "auc": {
+  "logistic/random_cv": 0.8229977189802399,
+  "logistic/block_cv": 0.6765211203357118,
+  "logistic/truth_new_area": 0.6844141627160215,
+  "knn_xy/random_cv": 0.9322279480313739,
+  "knn_xy/block_cv": 0.5512690033029415,
+  "knn_xy/truth_new_area": 0.6290173743589388
+ },
+ "picks_better_model": {
+  "random_cv": 4,
+  "block_cv": 7,
+  "truth": 0
+ },
+ "drilling": {
+  "grid": {
+   "found": 0,
+   "total": 62,
+   "median_first": 31.0,
+   "no_discovery": 12
+  },
+  "greedy": {
+   "found": 11,
+   "total": 62,
+   "median_first": 14.5,
+   "no_discovery": 5
+  },
+  "bayes": {
+   "found": 37,
+   "total": 62,
+   "median_first": 3.0,
+   "no_discovery": 0
+  }
+ }
+}
